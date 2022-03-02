@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Profile details has been added into profile category]]>
+    </line>
+    <line>
+      <![CDATA[Summary has been added into summary category]]>
+    </line>
+    <line>
+      <![CDATA[Frontend Technologies has been added into skills category]]>
+    </line>
+    <line>
+      <![CDATA[Backend Technologies has been added into skills category]]>
+    </line>
+    <line>
+      <![CDATA[Highest Education has been added into education category]]>
+    </line>
+    <line>
+      <![CDATA[Project name has been added into the project category]]>
+    </line>
+    <line>
+      <![CDATA[Resume has been downloaded successfully in WORD format]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10928" started-at="2022-03-02T12:55:51 IST" finished-at="2022-03-02T12:56:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10928" started-at="2022-03-02T12:55:51 IST" finished-at="2022-03-02T12:56:02 IST">
+      <class name="summary.RB_Summary_TC16Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="openTheBrowser" is-config="true" duration-ms="2766" started-at="2022-03-02T12:55:51 IST" finished-at="2022-03-02T12:55:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="navigateToApplication" is-config="true" duration-ms="1243" started-at="2022-03-02T12:55:54 IST" finished-at="2022-03-02T12:55:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="resumeWord()[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="resumeWord" duration-ms="6063" started-at="2022-03-02T12:55:55 IST" finished-at="2022-03-02T12:56:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Profile details has been added into profile category]]>
+            </line>
+            <line>
+              <![CDATA[Summary has been added into summary category]]>
+            </line>
+            <line>
+              <![CDATA[Frontend Technologies has been added into skills category]]>
+            </line>
+            <line>
+              <![CDATA[Backend Technologies has been added into skills category]]>
+            </line>
+            <line>
+              <![CDATA[Highest Education has been added into education category]]>
+            </line>
+            <line>
+              <![CDATA[Project name has been added into the project category]]>
+            </line>
+            <line>
+              <![CDATA[Resume has been downloaded successfully in WORD format]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resumeWord -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="closeTheBrowser" is-config="true" duration-ms="805" started-at="2022-03-02T12:56:01 IST" finished-at="2022-03-02T12:56:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- summary.RB_Summary_TC16Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

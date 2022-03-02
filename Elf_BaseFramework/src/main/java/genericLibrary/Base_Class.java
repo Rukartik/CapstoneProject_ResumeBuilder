@@ -12,9 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-import pomRepository.HomePage;
 
 /***
  * 
@@ -26,7 +24,7 @@ public class Base_Class implements FrameworkConstants {
 	public static WebDriver driver;
 	public WebDriverWait explicitWait;
 	public PropertyFileReader readFromPropertyFile;
-	public HomePage homePage;
+	public ExcelUtil elib = new ExcelUtil();
 
 	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
@@ -55,7 +53,6 @@ public class Base_Class implements FrameworkConstants {
 		String url = readFromPropertyFile.getValueProperty("url");
 
 		driver.get(url);
-		homePage = new HomePage(driver);
 	}
 
 	@AfterClass(alwaysRun = true)
