@@ -26,15 +26,15 @@
       <![CDATA[Project name has been added into the project category]]>
     </line>
     <line>
-      <![CDATA[Resume has been downloaded successfully in WORD format]]>
+      <![CDATA[Resume has been downloaded successfully in PDF format]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10928" started-at="2022-03-02T12:55:51 IST" finished-at="2022-03-02T12:56:02 IST">
+  <suite name="Default suite" duration-ms="25669" started-at="2022-03-02T18:59:46 IST" finished-at="2022-03-02T19:00:11 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10928" started-at="2022-03-02T12:55:51 IST" finished-at="2022-03-02T12:56:02 IST">
-      <class name="summary.RB_Summary_TC16Test">
-        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="openTheBrowser" is-config="true" duration-ms="2766" started-at="2022-03-02T12:55:51 IST" finished-at="2022-03-02T12:55:54 IST">
+    <test name="Default test" duration-ms="25669" started-at="2022-03-02T18:59:46 IST" finished-at="2022-03-02T19:00:11 IST">
+      <class name="summary.RB_Summary_TC15Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:summary.RB_Summary_TC15Test@7a765367]" name="openTheBrowser" is-config="true" duration-ms="12028" started-at="2022-03-02T18:59:46 IST" finished-at="2022-03-02T18:59:58 IST">
           <params>
             <param index="0">
               <value>
@@ -51,11 +51,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- openTheBrowser -->
-        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="navigateToApplication" is-config="true" duration-ms="1243" started-at="2022-03-02T12:55:54 IST" finished-at="2022-03-02T12:55:55 IST">
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:summary.RB_Summary_TC15Test@7a765367]" name="navigateToApplication" is-config="true" duration-ms="1775" started-at="2022-03-02T18:59:58 IST" finished-at="2022-03-02T19:00:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToApplication -->
-        <test-method status="PASS" signature="resumeWord()[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="resumeWord" duration-ms="6063" started-at="2022-03-02T12:55:55 IST" finished-at="2022-03-02T12:56:01 IST">
+        <test-method status="PASS" signature="resumePdf()[pri:0, instance:summary.RB_Summary_TC15Test@7a765367]" name="resumePdf" duration-ms="10955" started-at="2022-03-02T19:00:00 IST" finished-at="2022-03-02T19:00:11 IST">
           <reporter-output>
             <line>
               <![CDATA[Profile details has been added into profile category]]>
@@ -76,15 +76,15 @@
               <![CDATA[Project name has been added into the project category]]>
             </line>
             <line>
-              <![CDATA[Resume has been downloaded successfully in WORD format]]>
+              <![CDATA[Resume has been downloaded successfully in PDF format]]>
             </line>
           </reporter-output>
-        </test-method> <!-- resumeWord -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:summary.RB_Summary_TC16Test@17d677df]" name="closeTheBrowser" is-config="true" duration-ms="805" started-at="2022-03-02T12:56:01 IST" finished-at="2022-03-02T12:56:02 IST">
+        </test-method> <!-- resumePdf -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:summary.RB_Summary_TC15Test@7a765367]" name="closeTheBrowser" is-config="true" duration-ms="855" started-at="2022-03-02T19:00:11 IST" finished-at="2022-03-02T19:00:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-      </class> <!-- summary.RB_Summary_TC16Test -->
+      </class> <!-- summary.RB_Summary_TC15Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

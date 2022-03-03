@@ -6,6 +6,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/***
+ * 
+ * @author kartik
+ *
+ */
+
 public class HomePage {
 
 	public HomePage(WebDriver driver) {

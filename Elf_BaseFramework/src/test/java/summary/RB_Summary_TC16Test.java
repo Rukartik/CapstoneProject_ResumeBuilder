@@ -11,6 +11,12 @@ import pomRepository.ProjectDetailsPage;
 import pomRepository.SkillsPage;
 import pomRepository.SummaryPage;
 
+/***
+ * 
+ * @author kartik
+ *
+ */
+
 public class RB_Summary_TC16Test extends Base_Class {
 
 	@Test 

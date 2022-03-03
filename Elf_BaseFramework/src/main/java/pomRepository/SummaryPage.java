@@ -7,6 +7,12 @@ import genericLibrary.Base_Class;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+/***
+ * 
+ * @author kartik
+ *
+ */
+
 public class SummaryPage extends Base_Class {
 
 	public SummaryPage(WebDriver driver) {
